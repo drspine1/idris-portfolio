@@ -16,7 +16,7 @@ const Portfolio = () => {
               <p className="text-[#f39f5a]"><span className="capitalize text-white font-semibold">technology</span>:{technologies.join(',')}</p>
               <div className="link flex gap-6 justify-center mt-4">
                 <a href={github} className="bg-[#656565] rounded text-white uppercase  hover:bg-[#3a3939] transition-all duration-500  text-sm p-2">source code</a>
-                <a href={demo} className="bg-[#656565] hover:bg-[#3a3939] transition-all duration-500 rounded text-white uppercase  text-sm p-2 px-3">live demo</a>
+                <a href={demo} target="_blank" rel="noopener noreferrer" className="bg-[#656565] hover:bg-[#3a3939] transition-all duration-500 rounded text-white uppercase  text-sm p-2 px-3">live demo</a>
               </div>
              </div>
           </div>
