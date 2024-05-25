@@ -1,25 +1,25 @@
-import About from "./components/about";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Hero from "./components/hero";
-import NavBar from "./components/navBar";
-import Portfolio from "./components/portfolio";
-import Skills from "./components/skills";
+import AboutMe from "./component/about";
+import Contact from "./component/contact";
+import Footer from "./component/footer";
+import Hero from "./component/hero";
+import Navbar from "./component/navbar";
+import Portfolio from "./component/portfolio";
+import Skills from "./component/skills";
 
 const Home = () => {
-  return ( 
+  return (
     <>
     <div className="home-page">
-      <NavBar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+   <Navbar/>
+   <Hero/>
+   <AboutMe/>
+     <Skills/>
+     <Portfolio/>
+     <Contact/>
+     <Footer/>
     </div>
     </>
-   );
+    );
 }
  
 export default Home;
