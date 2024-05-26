@@ -28,7 +28,7 @@ const Contact = () => {
           viewport={{once:true,amount:0.2}}
           transition={{delay:0.8,duration:0.3}}
         >
-        <a href="mailto://idrismutolib5@gmail.com" className=' text-lg  py-2 mt-4 bg-[#ebe8e8] text-[#052659] rounded border-0 px-5   hover:bg-[grey] transition-all duration-500 hover:text-white'>let's talk</a>
+        <a href="mailto://idrismutolib5@gmail.com" className=' text-lg  py-2 mt-4 bg-[#2d2b2b] text-[white] rounded border-0 px-5   hover:bg-[grey] transition-all duration-500 hover:text-white'>let's talk</a>
         </motion.button>
 
          

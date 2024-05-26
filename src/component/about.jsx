@@ -49,7 +49,7 @@ const AboutMe = () => {
       <p className="text-lg mt-4 text-[hsl(0,0%,90%)] mb-8">
         Let's build something amazing together!
       </p>
-      <Link to="contact" spy={true} smooth={true} offset={-110} duration={500}  className=' cursor-pointer py-2 mt-4 bg-[#ebe8e8] text-[#052659] rounded border-0 px-5 text-lg hover:bg-[grey] transition-all duration-500 hover:text-white'>Get in Touch</Link>
+      <Link to="contact" spy={true} smooth={true} offset={-110} duration={500}  className=' cursor-pointer py-2 mt-4 bg-[#2d2b2b] text-[white] rounded border-0 px-5 text-lg hover:bg-[grey] transition-all duration-500 hover:text-white'>Get in Touch</Link>
   </div>
 </div>
 </div>
