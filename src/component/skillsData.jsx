@@ -5,7 +5,7 @@ const projects= [
    technologies: [ 'CSS', 'JavaScript', 'React'],
     demo:"https://afims-fitness-gym.vercel.app",
     
-    github:"",
+    github:"https://github.com/drspine1/afims-fitness-gym.git",
     image:"images/gym2.jpg",
 
 
@@ -17,7 +17,7 @@ const projects= [
     description: "An online store for selling products or services. It includes product listings with images, descriptions, prices, and customer reviews.",
    technologies: [ 'JavaScript', 'React', 'tailwind'],
    demo:"https://anabe-ecommerce.vercel.app",
-   github:"",
+   github:"https://github.com/drspine1/anabe-ecommerce.git",
    image:"images/cart1.jpg"
   },
   {
@@ -26,7 +26,7 @@ const projects= [
     description: " A platform for buying, selling, and renting properties. It typically includes property listings with images, descriptions, prices, and contact information for estate agents.",
    technologies: [ 'JavaScript', 'React', 'tailwind'],
    demo:"https://kaison-real-estate.vercel.app",
-   github:"",
+   github:"https://github.com/drspine1/kaison-real-estate.git",
    image:"images/propertybg.jpg"
   },
   {
@@ -35,7 +35,7 @@ const projects= [
     description: " An online presence for a barbershop that showcases services, pricing, barber profiles & apppointment booking. ",
    technologies: ['JavaScript', 'React', 'tailwind'],
    demo:"https://prime-barbershop.vercel.app",
-   github:"",
+   github:"https://github.com/drspine1/prime-barbershop.git",
    image:"images/barber1.jpg",
   }
 ]
