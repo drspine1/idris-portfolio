@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="works-container  grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-10 ">
         {data.map((data) =>{
           const {id,image,description,demo,github,technologies} = data
-          return <div key={id} className="bg-[#450a45] rounded w-[22rem] sm:w-[18rem] h-[30rem] sm:h-[30rem] md:w-[21rem] shadow-sm shadow-slate-200 ">
+          return <div key={id} className="bg-[#450a45] rounded w-[20rem] sm:w-[18rem] h-[30rem] sm:h-[30rem] md:w-[21rem] shadow-sm shadow-slate-200 ">
              <img src={image} alt=""  className="w-full h-[14rem] opacity-50 object-cover"/>
              <div className="info mt-6 px-4 ">
               <h4 className="text-[#ebe8e8]">{description}</h4>

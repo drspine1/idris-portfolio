@@ -25,7 +25,7 @@ const AboutMe = () => {
     viewport={{once:true, amount:0.4}}
     transition={{delay:0.2,duration:0.4}}
   className="about-img flex-[35%] mt-20 md:mt-0">
-    <img src="images/young2.jpg" alt="" className='w-full object-cover h-[22rem]'/>
+    <img src="images/avatar.jpg" alt="" className='w-full object-cover h-[22rem]'/>
   </motion.div>
   <div className="about-content flex-[60%]">
   
