@@ -11,13 +11,13 @@ const AboutMe = () => {
   whileInView={{scaleZ:1, opacity:1}}
   viewport={{once:true, amount:0.4}}
   transition={{delay:0.2,duration:0.4}}
-  className='text-[#c1e8ff] uppercase pb-2'>get to know</motion.h5>
+  className='text-[#f4c9f4] uppercase pb-2'>get to know</motion.h5>
   <motion.h2 
     initial={{scaleZ:0.5,opacity:0}}
     whileInView={{scaleZ:1, opacity:1}}
     viewport={{once:true, amount:0.4}}
     transition={{delay:0.4,duration:0.4}}
-  className="text-3xl font-bold mb-12 uppercase text-[#b1aeae] " >About Me</motion.h2>
+  className="text-3xl font-bold mb-12 uppercase text-[white] " >About Me</motion.h2>
 <div className="upper-me flex flex-col-reverse md:flex-row gap-[5%] text-left">
   <motion.div 
     initial={{scale:0.7,opacity:0}}
@@ -49,7 +49,7 @@ const AboutMe = () => {
       <p className="text-lg mt-4 text-[hsl(0,0%,90%)] mb-8">
         Let's build something amazing together!
       </p>
-      <Link to="contact" spy={true} smooth={true} offset={-110} duration={500}  className=' cursor-pointer py-3 mt-6 bg-[#2d2b2b] text-[white] rounded border-0 px-5 text-lg hover:bg-[grey] transition-all duration-500 hover:text-white'>Get in Touch</Link>
+      <Link to="contact" spy={true} smooth={true} offset={-110} duration={500}  className='links-btn shadow-md shadow-[#2a152a]/100 cursor-pointer py-3 mt-6  text-[white] rounded border-0 px-5 text-lg hover:bg-[grey] transition-all duration-500 hover:text-white'>Get in Touch</Link>
   </div>
 </div>
 </div>

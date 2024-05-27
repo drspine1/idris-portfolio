@@ -4,12 +4,12 @@ const Portfolio = () => {
   return ( 
     <>
     <div className="portfolio-container mt-40  w-[80%] lg:w-[90%] text-center mx-auto " id="portfolio">
-      <h5  className='text-[#c1e8ff] uppercase pb-2'>portfolio</h5>
-      <h2 className="text-3xl font-bold mb-12 uppercase text-[#b1aeae] " >my works</h2>
+      <h5  className='text-[#f4c9f4] uppercase pb-2'>portfolio</h5>
+      <h2 className="text-3xl font-bold mb-12 uppercase text-[white] " >my works</h2>
       <div className="works-container  grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-10 ">
         {data.map((data) =>{
           const {id,image,description,demo,github,technologies} = data
-          return <div key={id} className="bg-[#2d2b2b] rounded w-[22rem] sm:w-[18rem] h-[30rem] sm:h-[30rem] md:w-[21rem] shadow-sm shadow-slate-300 ">
+          return <div key={id} className="bg-[#450a45] rounded w-[22rem] sm:w-[18rem] h-[30rem] sm:h-[30rem] md:w-[21rem] shadow-sm shadow-slate-200 ">
              <img src={image} alt=""  className="w-full h-[14rem] opacity-50 object-cover"/>
              <div className="info mt-6 px-4 ">
               <h4 className="text-[#ebe8e8]">{description}</h4>

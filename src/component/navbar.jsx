@@ -7,7 +7,7 @@ const Navbar = () => {
   const active = "text-[#e5a55d]"
   return ( 
     <>
-   <header className=" text-white  bg-[#2d2b2b]  fixed left-0 top-0 z-10 w-full ">
+   <header className=" text-white  bg-[#831683] shadow-sm shadow-[#8c438c] fixed left-0 top-0 z-10 w-full ">
    <nav className="relative flex justify-between items-center p-6">
       <div className="logo">
       <div class="flex items-center">

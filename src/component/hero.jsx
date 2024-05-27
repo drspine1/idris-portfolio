@@ -36,7 +36,7 @@ class="bg-cover bg-center bg-no-repeat py-20 text-center mt-16 md:mt-28" id="hom
   viewport={{once:true,amount:0.2}}
   transition={{delay:1,duration:0.3}}
 >
-<Link to="portfolio" className="bg-[#2d2b2b] cursor-pointer text-[white] text-xl font-semibold py-3 px-6 rounded  hover:bg-[grey] transition-all duration-500 hover:text-white" spy={true} smooth={true} offset={-110} duration={500} >View My Work</Link>
+<Link to="portfolio" className="links-btn  cursor-pointer text-[white] text-lg shadow-[#2a152a]/100  shadow-md font-semibold py-3 px-6 rounded  hover:bg-[grey] transition-all duration-500 hover:text-white" spy={true} smooth={true} offset={-110} duration={500} >View My Work</Link>
 </motion.button>
   </div>
 </section>

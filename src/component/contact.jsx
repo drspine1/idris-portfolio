@@ -10,8 +10,8 @@ const Contact = () => {
       transition={{delay:0.2,duration:0.3}}
      
      >
-     <h5 className='text-[#c1e8ff] uppercase pb-2'>get in touch</h5>
-        <h2  className="text-3xl font-bold mb-12 uppercase text-[#b1aeae] ">contact me</h2>
+     <h5 className='text-[#f4c9f4] uppercase pb-2'>get in touch</h5>
+        <h2  className="text-3xl font-bold mb-12 uppercase text-[white] ">contact me</h2>
      </motion.div>
         <motion.div 
          initial={{y:"15px",opacity:0}}
@@ -28,7 +28,7 @@ const Contact = () => {
           viewport={{once:true,amount:0.2}}
           transition={{delay:0.8,duration:0.3}}
         >
-        <a href="mailto://idrismutolib5@gmail.com" className=' text-lg  py-3 mt-6 bg-[#3d3b3b] text-[white] rounded border-0 px-5   hover:bg-[grey] transition-all duration-500 hover:text-white'>let's talk</a>
+        <a href="mailto://idrismutolib5@gmail.com" className='links-btn shadow-[#2a152a]/100 shadow-md text-lg  py-3 mt-6  text-[white] rounded border-0 px-5   hover:bg-[grey] transition-all duration-500 hover:text-white'>let's talk</a>
         </motion.button>
 
          
