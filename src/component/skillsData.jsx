@@ -15,7 +15,7 @@ const projects= [
     id:2,
 
     description: "An online store for selling products or services. It includes product listings with images, descriptions, prices, and customer reviews.",
-   technologies: [ 'redux toolkit ', ' React', ' tailwind'],
+   technologies: [ 'redux toolkit', ' React', ' tailwind'],
    demo:"https://anabe-ecommerce.vercel.app",
    github:"https://github.com/drspine1/anabe-ecommerce.git",
    image:"images/cart1.jpg"
