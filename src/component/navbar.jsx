@@ -37,7 +37,7 @@ const Navbar = () => {
       <ul className={`menu-slide block sm:hidden absolute top-[100%] right-0  transition duration-500   h-screen w-4/5 text-center pt-12 ${toggle ? "mr-0":"mr-[-100%]"}`}>
        <li><Link activeClass="active"  to="about" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>about</Link></li>
 
-        <li><Link activeClass="active"  to="service" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>service</Link></li>
+        <li className="pt-12"><Link activeClass="active"  to="service" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>service</Link></li>
        <li className="pt-12"><Link activeClass="active" to="skills" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>skills</Link></li>
        <li className="pt-12"><Link activeClass="active"  to="project" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>projects</Link></li>
        <li className="pt-12" ><Link activeClass="active"  to="contact" spy={true} smooth={true} offset={-130} duration={500} className="text-xl font-medium uppercase text-[#fff]" onClick={()=>setToggle(false)}>contact</Link></li>

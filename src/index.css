@@ -21,7 +21,7 @@ body{
 .menu-slide{
   box-shadow: 0 40px 30px rgba(0,0,0,0.1);
   backdrop-filter: blur(5px);
-  background-color: rgba(19, 18, 17, 0.944);
+  background-color: rgba(6, 6, 6, 0.944);
   transition: 0.5s;
 }
 .skill{
